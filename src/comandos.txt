@@ -1,0 +1,27 @@
+------ Instalar: ------------
+
+npm init -y
+npm install react react-dom gatsby
+
+------ Para testar: --------
+
+gatsby develop
+
+------ Instalar Tailwindcss e plugins ------------
+
+*Tailwindcss: o maior problema é que ao compilar o site, o Tailwindcss compila todos os recursos
+inclusive o que não está sendo usado, e isso é ruim, então:
+*postcss: pré- processa as classes
+*purgecss: verifica as classes que estão sendo usadas e mantem ou
+exclui do projeto final
+
+npm install tailwindcss gatsby-plugin-postcss gatsby-plugin-purgecss
+
+Desenvolvido com:
+
+    React, Gatsby, Tailwindcss
+
+Ferramentas usadas:
+
+    Figma
+
